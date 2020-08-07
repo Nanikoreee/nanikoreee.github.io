@@ -1,0 +1,16 @@
+/* style.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    font-size: 120px;
+    display: flex;
+    justify-content: center;
+    background: url(https://cdn.discordapp.com/attachments/508157156843978753/741115347293438034/Discord_gYwqKnWPxh.png);
+}
