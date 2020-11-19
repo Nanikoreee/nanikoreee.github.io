@@ -9,8 +9,37 @@ body {
     font-family: 'Roboto', sans-serif;
     padding: 0;
     margin: 0;
-    font-size: 120px;
-    display: flex;
-    justify-content: center;
-    background: url(https://cdn.discordapp.com/attachments/508157156843978753/741115347293438034/Discord_gYwqKnWPxh.png);
+    background: brown;
+    border: 20px dashed yellow;
+}
+
+header {
+    background: orangered;
+}
+
+.container {
+    display: grid;
+    grid-template-areas: "fn2 fn2 blank blank" "fn2 fn2 blank blank" "race race blank blank" "race race blank blank";
+    grid-template-columns: 200px 200px 100px 100px;
+    grid-template-rows: 300px 100px 500px 100px;
+}
+
+.shit {
+    background: pink;
+    grid-area: fn2;
+}
+
+.shittier {
+    background: purple;
+    grid-area: race;
+}
+
+.shittiest {
+    background: lime;
+}
+
+a:hover {
+    position: absolute;
+    right: 500px;
+    top: 50px;
 }
